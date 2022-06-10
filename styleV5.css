@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.ImageCabeçario{
+
+}
+.logo{
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #dfe4e9;
+  
+  }
+  
+.LetrasDoNav{
+    margin-top: -15rem;
+    
+    
+}
+.CorpoFoto{
+
+}
+.CorpoTexto{
+
+}
+.FoterLogo{
+
+}
+.FooterContatos{
+
+}
+.FooterNav{
+
+}
+.FormFooter{
+
+}
+form{
+    margin-top: 5rem;
+    margin-left: 1rem;
+  }
+  .ajusteInputAreaEmail{
+    width: 430px;
+  }
+  .ajusteInputAreaPassowd{
+    width: 150px;
+    margin-top: -78px;
+    margin-left: 28rem;
+  }
+
+@media screen and (max-width: 500px) {
+ 
+    .ImageCabeçario{
+
+    }
+    .logo{
+    
+    }
+    .LetrasDoNav{
+        
+        
+    }
+    .CorpoFoto{
+    
+    }
+    .CorpoTexto{
+    
+    }
+    .FoterLogo{
+    
+    }
+    .FooterContatos{
+    
+    }
+    .FooterNav{
+    
+    }
+    .FormFooter{
+    
+    }
+    
+}
