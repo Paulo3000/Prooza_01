@@ -3,7 +3,10 @@
     padding: 0;
     border: 0;
 }
-
+body{
+  background-image: url(./grade.png);
+  background-size: auto;
+}
 
 .ImageCabecario{
   
@@ -27,17 +30,25 @@
     color: #dfe4e9;
   
   }
+
   
 .LetrasDoNav{
-    margin-top: -15rem;
+    margin-top: -26rem;
+    margin-left: -4rem;
     
     
+}
+li{
+  padding: 2rem;
+  
 }
 
 .CorpoTexto{
  margin-top: 18rem;
  margin-left: 2rem;
  margin-right: 2rem;
+ font-size: 20px;
+
 
 }
 .CorpoFoto{
@@ -52,7 +63,17 @@
    
     margin-top: 8rem;
 }
-.FoterLogo{
+.FooterLogo{
+  
+
+  margin-top: -10rem;
+  height: 250PX;
+  background: url(./PNG\(2\).png) no-repeat;
+  background-size: 20%;
+
+
+
+    transform: translate(36rem,19rem); 
 
 }
 .FooterContatos{
@@ -67,7 +88,7 @@
 form{
     margin-top: 10rem;
     margin-top: 5rem;
-    margin-left: 1rem;
+    margin-left: 7rem;
   }
   .ajusteInputAreaEmail{
     width: 430px;
@@ -75,12 +96,12 @@ form{
   .ajusteInputAreaPassowd{
     width: 150px;
     margin-top: -78px;
-    margin-left: 28rem;
+    margin-left: 27rem;
   }
   .ajusteDaTextArea{
  
-    margin-right: 48rem;
-   
+    width: 37rem;
+   margin-top: -1rem;
   }
 
 @media screen and (max-width: 500px) {
