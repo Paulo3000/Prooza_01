@@ -44,7 +44,7 @@ li{
 }
 
 .CorpoTexto{
- margin-top: 18rem;
+ margin-top: 20rem;
  margin-left: 2rem;
  margin-right: 2rem;
  font-size: 20px;
@@ -59,7 +59,7 @@ li{
   
     max-height: 900px;
 
-    margin-left: 7rem;
+    margin-left: 9rem;
    
     margin-top: 8rem;
 }
@@ -104,7 +104,7 @@ form{
    margin-top: -1rem;
   }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 1000px) {
  
     .ImageCabeçario{
 
@@ -112,15 +112,44 @@ form{
     .logo{
     
     }
-    .LetrasDoNav{
+    .LetrasDoNav {
+        font-size: 10px;
+        margin-left: 2rem;
+        margin-top: -31rem;
         
-        
+    }
+    li{
+      padding: 2px;
     }
     .CorpoFoto{
+      
+    height: 400px;
+  
+    background-size: 100%;
+  
+    max-height: 400px;
+
+    margin-left: -1px;
+   
+    margin-top: 2rem;
     
     }
+    .ajusteInputAreaEmail{
+      width: 280px;
+    }
+    .ajusteInputAreaPassowd{
+      width: 165px;
+      margin-left: 290px;
+      margin-top: -70px;
+     
+    }
+    .ajusteDaTextArea{
+   
+      width: 28.5rem;
+     margin-top: -1rem;
+    }
     .CorpoTexto{
-    
+    margin-top: 13rem;
     }
     .FoterLogo{
     
@@ -132,7 +161,8 @@ form{
     
     }
     .FormFooter{
-    
+      margin-top: -10rem;
+      margin-left: -12em;
     }
     
 }
