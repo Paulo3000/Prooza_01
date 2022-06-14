@@ -4,7 +4,7 @@
     border: 0;
 }
 body{
-  background-image: url(./grade.png);
+  background-image: url(./grade.png----);
   background-size: auto;
 }
 
@@ -148,10 +148,16 @@ form{
       width: 28.5rem;
      margin-top: -1rem;
     }
+  
     .CorpoTexto{
     margin-top: 13rem;
     }
-    .FoterLogo{
+    .FooterLogo{
+     
+      margin-top: -18rem;
+      height: 250PX;
+      background-size: 50%;
+     transform: translate(6rem,19rem); 
     
     }
     .FooterContatos{
@@ -161,8 +167,8 @@ form{
     
     }
     .FormFooter{
-      margin-top: -10rem;
-      margin-left: -12em;
+      margin-left: -8rem;
+      margin-top: -8rem;
     }
     
 }
