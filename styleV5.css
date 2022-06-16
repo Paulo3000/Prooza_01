@@ -4,7 +4,7 @@
     border: 0;
 }
 body{
-  background-image: url(./grade.png----);
+  background-image: url(./grade.png);
   background-size: auto;
 }
 
@@ -42,7 +42,13 @@ li{
   padding: 2rem;
   
 }
-
+.clienteH3{
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(0,60,144);
+  
+}
 .CorpoTexto{
  margin-top: 20rem;
  margin-left: 2rem;
@@ -66,14 +72,15 @@ li{
 .FooterLogo{
   
 
-  margin-top: -10rem;
+  margin-top: -22.5rem;
   height: 250PX;
   background: url(./PNG\(2\).png) no-repeat;
   background-size: 20%;
+  /*transform: translate(0rem,10rem); */
+  padding: 35rem;
+ margin-left : 68rem;
 
 
-
-    transform: translate(36rem,19rem); 
 
 }
 .FooterContatos{
@@ -127,10 +134,14 @@ button{
     .logo{
     
     }
+    nav{
+      width: 130px;
+     
+    }
     .LetrasDoNav {
         font-size: 10px;
         margin-left: 2rem;
-        margin-top: -31rem;
+        margin-top: -32rem;
         
     }
     li{
@@ -165,7 +176,10 @@ button{
     }
   
     .CorpoTexto{
+  
+  
     margin-top: 13rem;
+    margin-top: 15rem;
     }
     .FooterLogo{
      
