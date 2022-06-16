@@ -1,203 +1,214 @@
-*{
-    margin: 0;
-    padding: 0;
-    border: 0;
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
 }
-body{
-  background-image: url(./grade.png);
+
+body {
+  background-image: url(./grade2.png);
   background-size: auto;
 }
 
-.ImageCabecario{
-  
-    background-size: cover;
-    height: 500px;
-    background: url(murala1.jpg) no-repeat;
-    background-size: 97%;
-    align-items: center;
-    max-height: 900px;
-    border-radius: 5px;
-    margin-left: 2rem;
-    margin-top: 0rem;
-  
+.ImageCabecario {
 
- 
-}
-.logo{
+  background-size: cover;
+  height: 500px;
+  background: url(murala1.jpg) no-repeat;
+  background-size: 97%;
+  align-items: center;
+  max-height: 900px;
+  border-radius: 5px;
+  margin-left: 2rem;
+  margin-top: 0rem;
+
+
 
 }
+
+.logo {}
+
 .navbar-light .navbar-nav .nav-link {
-    color: #dfe4e9;
-  
-  }
+  color: #dfe4e9;
 
-  
-.LetrasDoNav{
-    margin-top: -26rem;
-    margin-left: -4rem;
-    
-    
 }
-li{
+
+
+.LetrasDoNav {
+  margin-top: -26rem;
+  margin-left: -4rem;
+
+
+}
+
+li {
   padding: 2rem;
-  
+
 }
-.clienteH3{
+
+.clienteH3 {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Josefin Sans', sans-serif;
   font-family: 'Montserrat', sans-serif;
-  color: rgb(0,60,144);
-  
-}
-.CorpoTexto{
- margin-top: 20rem;
- margin-left: 2rem;
- margin-right: 2rem;
- font-size: 20px;
-
+  color: rgb(0, 60, 144);
 
 }
-.CorpoFoto{
-   
-    height: 800px;
-    background: url(./clientes.jpg) no-repeat;
-    background-size: 90%;
-  
-    max-height: 900px;
 
-    margin-left: 9rem;
-   
-    margin-top: 8rem;
+.CorpoTexto {
+  margin-top: 20rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  font-size: 20px;
+
+
 }
-.FooterLogo{
-  
 
-  margin-top: -22.5rem;
-  height: 250PX;
+.CorpoFotoClinetes {
+
+  height: 800px;
+  background: url(./clientes.jpg) no-repeat;
+  background-size: 90%;
+
+  max-height: 900px;
+
+  margin-left: 12rem;
+
+  margin-top: 8rem;
+}
+
+.FooterLogo {
+
+
+  margin-top: -23rem;
+  height: 250px;
   background: url(./PNG\(2\).png) no-repeat;
-  background-size: 20%;
-  /*transform: translate(0rem,10rem); */
-  padding: 35rem;
- margin-left : 68rem;
+  background-size: 17rem;
+  margin-left: 65.5rem;
 
 
 
 }
-.FooterContatos{
 
-}
-.FooterNav{
+.FooterContatos {}
 
-}
-.FormFooter{
+.FooterNav {}
 
-}
-form{
-    margin-top: 10rem;
-    margin-top: 5rem;
-    margin-left: 7rem;
-  }
-  .ajusteInputAreaEmail{
-    width: 430px;
-  }
-  .ajusteInputAreaPassowd{
-    width: 150px;
-    margin-top: -78px;
-    margin-left: 27rem;
-  }
-  .ajusteDaTextArea{
- 
-    width: 37rem;
-   margin-top: -1rem;
-  }
-h3{
-  font-family: 'Bebas Neue', cursive;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
-color: rgb(0,60,144);
+.FormFooter {}
 
+form {
+  margin-top: 10rem;
+  margin-top: 5rem;
+  margin-left: 12rem;
 }
-button{
+
+.ajusteInputAreaEmail {
+  width: 430px;
+}
+
+.ajusteInputAreaPassowd {
+  width: 150px;
+  margin-top: -78px;
+  margin-left: 27rem;
+}
+
+.ajusteDaTextArea {
+
+  width: 37rem;
+  margin-top: -1rem;
+}
+
+h3 {
   font-family: 'Bebas Neue', cursive;
   font-family: 'Josefin Sans', sans-serif;
   font-family: 'Montserrat', sans-serif;
-  background-color: rgb(0,60,144);
+  color: rgb(0, 60, 144);
+
+}
+
+button {
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(0, 60, 144);
   color: white;
   width: 150px;
 }
 
 @media screen and (max-width: 1000px) {
- 
-    .ImageCabeçario{
 
-    }
-    .logo{
-    
-    }
-    nav{
-      width: 130px;
-     
-    }
-    .LetrasDoNav {
-        font-size: 10px;
-        margin-left: 2rem;
-        margin-top: -32rem;
-        
-    }
-    li{
-      padding: 2px;
-    }
-    .CorpoFoto{
-      
+  .ImageCabeçario {}
+
+  .logo {}
+
+  nav {
+    width: 130px;
+
+  }
+
+  .LetrasDoNav {
+    font-size: 10px;
+    margin-left: 2rem;
+    margin-top: -32rem;
+
+  }
+
+  li {
+    padding: 2px;
+  }
+
+  .CorpoFotoClinetes {
+
     height: 400px;
-  
+
     background-size: 100%;
-  
+
     max-height: 400px;
 
     margin-left: -1px;
-   
+
     margin-top: 2rem;
-    
-    }
-    .ajusteInputAreaEmail{
-      width: 280px;
-    }
-    .ajusteInputAreaPassowd{
-      width: 165px;
-      margin-left: 290px;
-      margin-top: -70px;
-     
-    }
-    .ajusteDaTextArea{
-   
-      width: 28.5rem;
-     margin-top: -1rem;
-    }
-  
-    .CorpoTexto{
-  
-  
+
+  }
+
+  .ajusteInputAreaEmail {
+    width: 280px;
+  }
+
+  .ajusteInputAreaPassowd {
+    width: 165px;
+    margin-left: 290px;
+    margin-top: -70px;
+
+  }
+
+  .ajusteDaTextArea {
+
+    width: 28.5rem;
+    margin-top: -1rem;
+  }
+
+  .CorpoTexto {
+
+
     margin-top: 13rem;
     margin-top: 15rem;
-    }
-    .FooterLogo{
-     
-      margin-top: -18rem;
-      height: 250PX;
-      background-size: 50%;
-     transform: translate(6rem,19rem); 
-    
-    }
-    .FooterContatos{
-    
-    }
-    .FooterNav{
-    
-    }
-    .FormFooter{
-      margin-left: -8rem;
-      margin-top: -8rem;
-    }
-    
+  }
+
+  .FooterLogo {
+
+    margin-top: -18rem;
+    height: 250PX;
+    background-size: 50%;
+    transform: translate(6rem, 19rem);
+
+  }
+
+  .FooterContatos {}
+
+  .FooterNav {}
+
+  .FormFooter {
+    margin-left: -8rem;
+    margin-top: -8rem;
+  }
+
 }
